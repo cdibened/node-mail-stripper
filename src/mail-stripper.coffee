@@ -8,6 +8,8 @@ class MailStripper
     /\d{4}-\d{2}-\d{2} \d{2}:\d{2} GMT\+\d{2}:\d{2}/
     /^—/
     /<[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,8}>/i
+    /^\s*~~/
+    /^\s*~~~/
   ]
 
   lineShouldBeStripped: (line) ->

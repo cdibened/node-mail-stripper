@@ -25,9 +25,9 @@
   "homepage": "https://github.com/saintmac/node-mail-stripper",
   "devDependencies": {
     "chai": "~1.9.1",
-    "mocha": "~1.18.2"
+    "mocha": "^6.1.2"
   },
   "dependencies": {
-    "coffee-script": "~1.7.1"
+    "coffeescript": "^2.4.1"
   }
 }

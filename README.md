@@ -9,7 +9,8 @@ Strip signatures and previous emails from email bodies
 # use
 ## simple use
 ```javascript
-    stripper = new MailStripper();
+    const MailStripper = require("mail-stripper");
+    stripper = new MailStripper({});
     message = stripper.parse(mail);
 ```
 

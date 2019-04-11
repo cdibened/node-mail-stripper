@@ -25,7 +25,7 @@
 
       lineContainsName(line, name) {
         var name_re;
-        name_re = new RegExp(`^\\s*${name}\\s*$`, 'i');
+        name_re = new RegExp(`^\\s*{name}\\s*`, 'i');
         return name_re.test(line);
       }
 

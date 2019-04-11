@@ -19,7 +19,7 @@ class MailStripper
     false
 
   lineContainsName: (line, name) ->
-    name_re = new RegExp("^\\s*#{name}\\s*$", 'i')
+    name_re = new RegExp("^\\s*#{name}\\s*", 'i')
     name_re.test(line)
 
   parse: (body, name) ->
